@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exam list</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'questions/css/style.css' %}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+</head>
+<body>
+
+<header class="header">
+    <p class="title">Ma-Project - Exams</p>
+</header>
+
+
+<div class="table-container">
+    <table class="table">
+         <thead >
+            <tr>
+                <th class="orderable">
+                    <a href="?sort=id">ID</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=exam_name">Exam Name</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=exam_title">Title</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=exam_subtitle">Sub Title</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=question_count">Question Count</a>
+                </th>
+                <th class="desc orderable">
+                    <a href="?sort=create_date">Date Created</a>
+                </th>
+            </tr>
+         </thead>
+         <tbody class="exambody">
+         {% for exam in latest_exam_list %}
+          <tr class="odd">
+              <td>
+                  <a href="{{exam.id}}">{{exam.id}}</a>
+              </td>
+              <td><a href="{{exam.id}}">{{exam.exam_name}}</a>
+                  <span class="large">
+                      <img src="{% static 'questions/exams/'|add:exam.jpg_url %}" class="large-image" alt="My image"
+                        onerror="this.style.display='none'"/>
+                  </span>
+              </td>
+              <td>{{exam.exam_title}}</td>
+              <td>{{exam.exam_subtitle}}</td>
+              <td>{{exam.question_count}}</td>
+              <td>{{exam.create_date}}</td>
+          </tr>
+         {% endfor %}
+         </tbody>
+
+        <div text-align="left" class="submit-row-left">
+
+
+                <a class="activeButton" name="add_exam" href="{% url 'questions:addexam' %}" target="_blank">NEW</a>
+
+                        <!--<input type="submit" value="Save and add another" name="_addanother">-->
+                        <!--<input type="submit" value="Save and continue editing" name="_continue">-->
+            </div>
+
+</body>
+</html>

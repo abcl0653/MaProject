@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="733581c1-9518-4415-b008-5e60190830c4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1824124645">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cfg" value="2" />
+          <entry key="css" value="4" />
+          <entry key="html" value="25" />
+          <entry key="ipynb" value="1" />
+          <entry key="jpg" value="4" />
+          <entry key="js" value="4" />
+          <entry key="py" value="71" />
+          <entry key="sh" value="3" />
+          <entry key="svg" value="1" />
+          <entry key="tex" value="24" />
+          <entry key="vue" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="3" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="25" />
+          <entry key="IPNB" value="1" />
+          <entry key="Image" value="4" />
+          <entry key="JavaScript" value="4" />
+          <entry key="LaTeX source file" value="23" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="71" />
+          <entry key="SVG" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="543" />
+          <entry key="html" value="4016" />
+          <entry key="js" value="24" />
+          <entry key="py" value="9659" />
+          <entry key="sh" value="183" />
+          <entry key="tex" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Bash" value="183" />
+          <entry key="CSS" value="543" />
+          <entry key="HTML" value="4016" />
+          <entry key="JavaScript" value="24" />
+          <entry key="LaTeX source file" value="5" />
+          <entry key="Python" value="9659" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DOES</find>
+      <find>DoesNotExist</find>
+      <find>get</find>
+      <find>get(</find>
+      <find>examdetail</find>
+      <find>order</find>
+      <find>Does</find>
+      <find>message</find>
+      <find>previ</find>
+      <find>re</find>
+      <find>del</find>
+      <find>detai</find>
+      <find>index</find>
+      <find>question</find>
+      <find>grade</find>
+      <find>add</find>
+      <find>inde</find>
+      <find>create</find>
+      <find>call</find>
+      <find>&amp;</find>
+      <find>categ</find>
+      <find>delete</find>
+      <find>cate</find>
+      <find>NEW</find>
+      <find>url</find>
+      <find>copu</find>
+      <find>jpg</find>
+      <find>jpg_url</find>
+      <find>questions</find>
+      <find>jpg_ur</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/website/util/create_ws_content.sh" />
+        <option value="$PROJECT_DIR$/website/util/create_work_space.py" />
+        <option value="$PROJECT_DIR$/website/questions/create_work_space.py" />
+        <option value="$PROJECT_DIR$/create_ws_content.sh" />
+        <option value="$PROJECT_DIR$/create_work_space.py" />
+        <option value="$PROJECT_DIR$/website/create_work_space.py" />
+        <option value="$PROJECT_DIR$/website/questions/index.html" />
+        <option value="$PROJECT_DIR$/util/create_work_space.py" />
+        <option value="$PROJECT_DIR$/util/conv2jpg.ipynb" />
+        <option value="$PROJECT_DIR$/util/conv2jpg.py" />
+        <option value="$PROJECT_DIR$/util/create_ws_content.sh" />
+        <option value="$PROJECT_DIR$/website/website/settings.py" />
+        <option value="$PROJECT_DIR$/website/questions/templates/questions/new.html" />
+        <option value="$PROJECT_DIR$/website/questions/tables.py" />
+        <option value="$PROJECT_DIR$/website/website/urls.py" />
+        <option value="$PROJECT_DIR$/website/questions/admin.py" />
+        <option value="$PROJECT_DIR$/website/questions/latex.py" />
+        <option value="$PROJECT_DIR$/website/questions/static/questions/exams/exam_header.tex" />
+        <option value="$PROJECT_DIR$/website/questions/static/questions/exams/exam_footer.tex" />
+        <option value="$PROJECT_DIR$/website/questions/static/questions/workspaces/aa9caf7605f711e98c5d520090400c01/aa9caf7605f711e98c5d520090400c01.tex" />
+        <option value="$PROJECT_DIR$/website/questions/static/questions/workspaces/bc94e7e2047211e9abcb520090400c01/bc94e7e2047211e9abcb520090400c01.tex" />
+        <option value="$PROJECT_DIR$/website/questions/static/questions/workspaces/cbe0304a05fc11e9812c520090400c01/cbe0304a05fc11e9812c520090400c01.tex" />
+        <option value="$PROJECT_DIR$/website/questions/static/questions/workspaces/question_artifact.tex" />
+        <option value="$PROJECT_DIR$/website/questions/static/questions/js/js.js" />
+        <option value="$PROJECT_DIR$/website/questions/static/questions/css/style.css" />
+        <option value="$PROJECT_DIR$/website/questions/templates/questions/examadd.html" />
+        <option value="$PROJECT_DIR$/website/questions/templates/questions/examlist.html" />
+        <option value="$PROJECT_DIR$/website/questions/templates/questions/add.html" />
+        <option value="$PROJECT_DIR$/website/questions/views.py" />
+        <option value="$PROJECT_DIR$/website/questions/urls.py" />
+        <option value="$PROJECT_DIR$/website/questions/models.py" />
+        <option value="$PROJECT_DIR$/website/questions/templates/questions/questiondetail.html" />
+        <option value="$PROJECT_DIR$/website/questions/templates/questions/index.html" />
+        <option value="$PROJECT_DIR$/website/questions/templates/questions/examdetail.html" />
+        <option value="$PROJECT_DIR$/website/questions/views_latex.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MaProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/website/questions/templates/questions" />
+      <recent name="$PROJECT_DIR$/website/questions/static/questions/image" />
+      <recent name="$PROJECT_DIR$/website/questions/static/questions/workspaces" />
+      <recent name="$PROJECT_DIR$/website/questions/static/questions/exams" />
+      <recent name="$PROJECT_DIR$/website/questions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/website/questions" />
+      <recent name="$PROJECT_DIR$/website/website/static/questions" />
+      <recent name="$PROJECT_DIR$/website/questions/templates/questions" />
+      <recent name="$PROJECT_DIR$/website/questions/templates" />
+      <recent name="$PROJECT_DIR$/website/questions/template" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="create_work_space" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MaProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/create_work_space.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.create_work_space" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="733581c1-9518-4415-b008-5e60190830c4" name="Default Changelist" comment="" />
+      <created>1545310781056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545310781056</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2932761" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.2609929" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.2609929" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/website/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/49a58088046411e9b4bc520090400c01/BHCexam1.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspaces/6c71c91e046411e98862520090400c01/6c71c91e046411e98862520090400c01.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/frontend/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/django/views/__init__.py" />
+    <entry file="file:///usr/local/lib/python3.7/site-packages/django/template/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/website/frontend/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="86" selection-end-column="510" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/django/views/generic/base.py" />
+    <entry file="file://$PROJECT_DIR$/website/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/conv2jpg.ipynb" />
+    <entry file="file://$PROJECT_DIR$/util/create_ws_content.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/templates/questions/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/exams/1.tex" />
+    <entry file="file://$PROJECT_DIR$/header/exam_artifact.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/exams/BHCexam1.cfg" />
+    <entry file="file://$PROJECT_DIR$/website/questions/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/create_work_space.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/Django-2.2.dev20181222235254-py3.7.egg/django/contrib/messages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/latex.py" />
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/exams/exam_footer.tex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/exams/exam_header.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/exams/1_几何试卷测试1.tex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/Django-2.2.dev20181222235254-py3.7.egg/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/conv2jpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/workspaces/2e8d7c04-09de-11e9-8905-520090400c01/2e8d7c04-09de-11e9-8905-520090400c01.tex" />
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/workspaces/9af703b2-09e6-11e9-95ea-520090400c01/9af703b2-09e6-11e9-95ea-520090400c01.jpg" />
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/workspaces/bc94e7e2047211e9abcb520090400c01/bc94e7e2047211e9abcb520090400c01.tex" />
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/workspaces/aa9caf7605f711e98c5d520090400c01/aa9caf7605f711e98c5d520090400c01.tex" />
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/workspaces/622ff184-09e0-11e9-8734-520090400c01/622ff184-09e0-11e9-8734-520090400c01.tex" />
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/workspaces/cbe0304a05fc11e9812c520090400c01/cbe0304a05fc11e9812c520090400c01.tex" />
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/image/clippy.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/workspaces/question_artifact.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/Django-2.2.dev20181222235254-py3.7.egg/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="904" column="14" selection-start-line="904" selection-start-column="8" selection-end-line="904" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/templates/questions/examadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/templates/questions/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="30" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/templates/questions/examlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="70" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/static/questions/workspaces/eec18296-0c17-11e9-8a2e-520090400c01/eec18296-0c17-11e9-8a2e-520090400c01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1546166437366" expanded="true" signature="682:719" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/templates/questions/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="61" column="86" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/views_latex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="104" column="78" selection-start-line="104" selection-start-column="78" selection-end-line="104" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+            <marker date="1546167669408" expanded="true" signature="2381:2461" ph="..." />
+            <marker date="1546167669408" expanded="true" signature="2492:2589" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+            <marker date="1546164653631" expanded="true" signature="822:827" ph="..." />
+            <marker date="1546164653631" expanded="true" signature="1109:1305" ph="..." />
+            <marker date="1546164653631" expanded="true" signature="1390:1415" ph="..." />
+            <marker date="1546164653631" expanded="true" signature="1415:1420" ph="..." />
+            <marker date="1546164653631" expanded="true" signature="2003:3652" ph="..." />
+            <marker date="1546164653631" expanded="true" signature="2829:3006" ph="..." />
+            <marker date="1546164653631" expanded="true" signature="3807:3812" ph="..." />
+            <marker date="1546164653631" expanded="true" signature="4021:4026" ph="..." />
+            <marker date="1546164653631" expanded="true" signature="5179:5183" ph="..." />
+            <marker date="1546164653631" expanded="true" signature="5361:5362" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/templates/questions/questiondetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="158" column="118" selection-start-line="158" selection-start-column="89" selection-end-line="158" selection-end-column="118" />
+          <folding>
+            <element signature="e#2536#2542#0" expanded="true" />
+            <element signature="e#2542#2548#0" expanded="true" />
+            <element signature="e#2548#2554#0" expanded="true" />
+            <element signature="e#2554#2560#0" expanded="true" />
+            <element signature="e#2560#2566#0" expanded="true" />
+            <element signature="e#2566#2572#0" expanded="true" />
+            <element signature="e#2616#2622#0" expanded="true" />
+            <element signature="e#2622#2628#0" expanded="true" />
+            <element signature="e#2628#2634#0" expanded="true" />
+            <element signature="e#2634#2640#0" expanded="true" />
+            <element signature="e#2640#2646#0" expanded="true" />
+            <element signature="e#2646#2652#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/questions/templates/questions/examdetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="147" column="118" selection-start-line="147" selection-start-column="118" selection-end-line="147" selection-end-column="118" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

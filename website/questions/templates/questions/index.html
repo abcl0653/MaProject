@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+{% load render_table from django_tables2 %}
+<head>
+    <meta charset="UTF-8">
+    <title>Questions</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'questions/css/style.css' %}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("input").click(function(){
+    $(this).parent().parent().parent().toggleClass("isSelected");
+  });
+});
+</script>
+
+</head>
+<body>
+
+<header class="header">
+    <p class="title">Ma-Project</p>
+</header>
+
+<div class="table-container">
+    <table class="table">
+         <thead >
+            <tr>
+                <th class="orderable">
+                    <a href="?sort=id">ID</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=question_text">Question text</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=workspace">Workspace</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=category">Category</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=grade">Grade</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=rate">Rate</a>
+                </th>
+                <th class="desc orderable">
+                    <a href="?sort=pub_date">Date published</a>
+                </th>
+            </tr>
+         </thead>
+         <tbody >
+         {% for question in latest_question_list %}
+          <tr class="odd">
+              <td>
+                  <a href="{% url 'questions:detail' question.id %}">  {{question.id}} </a>
+
+              </td>
+              <td>{{question.question_text}}
+                  <span class="large">
+                      <img src="{% static 'questions/workspaces/'|add:question.jpg_url %}?={{ question.current_time }}" class="large-image" alt="My image"
+                        onerror="this.style.display='none'"/>
+                  </span>
+              </td>
+              <td>{{question.workspace}}</td>
+              <td>{{question.category}}</td>
+              <td>{{question.grade}}</td>
+              <td>{{question.rate}}</td>
+              <td>{{question.pub_date}}</td>
+              <td><a href="{% url 'questions:delete' question.id %}">Delete</a></td>
+          </tr>
+         {% endfor %}
+         </tbody>
+
+        <div text-align="left" class="submit-row-left">
+
+
+                <a class="activeButton" name="add_question" href="{% url 'questions:add' %}" target="_blank">NEW</a>
+
+                        <!--<input type="submit" value="Save and add another" name="_addanother">-->
+                        <!--<input type="submit" value="Save and continue editing" name="_continue">-->
+            </div>
+
+</body>
+</html>

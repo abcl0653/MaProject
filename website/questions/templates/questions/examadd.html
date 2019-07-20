@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Exam Detail</title>
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css">
+    <script type="text/javascript" src="/admin/jsi18n/"></script>
+    <script type="text/javascript" src="/static/admin/js/vendor/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+    <script type="text/javascript" src="/static/admin/js/core.js"></script>
+    <script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+    <script type="text/javascript" src="/static/admin/js/actions.js"></script>
+    <script type="text/javascript" src="/static/admin/js/urlify.js"></script>
+    <script type="text/javascript" src="/static/admin/js/prepopulate.js"></script>
+    <script type="text/javascript" src="/static/admin/js/vendor/xregexp/xregexp.js"></script>
+    <script type="text/javascript" src="/static/admin/js/calendar.js"></script>
+    <script type="text/javascript" src="/static/admin/js/admin/DateTimeShortcuts.js"></script>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">
+    <meta name="robots" content="NONE,NOARCHIVE">
+</head>
+<body class=" app-questions model-question change-form"
+      data-admin-utc-offset="0">
+<!-- Container -->
+<div id="container">
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+            <h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+        </div>
+        <div id="user-tools">
+            Welcome,
+            <strong>cailin</strong>.
+            <a href="/">View site</a> /
+            <a href="/admin/password_change/">Change password</a> /
+            <a href="/admin/logout/">Log out</a>
+        </div>
+    </div>
+    <!-- END Header -->
+    <div class="breadcrumbs">
+        <a href="/admin/">Admin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/questions/">Questions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/questions/exams/">Exams</a>
+
+    </div>
+    <!-- Content -->
+    <div id="content" class="colM">
+        <h1>Add Exam</h1>
+        <div id="content-main">
+            <form action="" method="post" id="question_form" novalidate><input type="hidden" name="csrfmiddlewaretoken" value="GlLOnwFPP9yh6N7qXcP448F9iBKkDvPSjkSAO0idgbCIOGXPE3hshrZRp3SNETso">
+                <div>
+                    <fieldset class="module aligned ">
+                        <div class="form-row field-exam_name">
+                            <div>
+                                <label class="required" for="id_exam_name">Exam Name:</label>
+                                <input type="text" name="exam_name" class="vTextField" maxlength="200" required
+                                       id="id_exam_name">
+                            </div>
+
+                        </div>
+
+                        <div class="form-row field-exam_title">
+                            <div>
+                                <label class="required" for="id_exam_title">Title:</label>
+                                <input type="text" name="exam_title" class="vTextField" maxlength="64" required
+                                   id="id_exam_title">
+
+                            </div>
+                        </div>
+                        <div class="form-row field-exam_subtitle">
+                            <div>
+                                <label class="required" for="id_exam_subtitle">Sub Title:</label>
+                                <input type="text" name="exam_subtitle" class="vTextField" maxlength="10" required
+                                       id="id_exam_subtitle">
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+                    <div class="submit-row">
+                        <input type="submit" value="Save" class="default" name="_save">
+                        <!--<input type="submit" value="Save and add another" name="_addanother">-->
+                        <!--<input type="submit" value="Save and continue editing" name="_continue">-->
+                    </div>
+                    <script type="text/javascript"
+                            id="django-admin-form-add-constants"
+                            src="/static/admin/js/change_form.js"
+
+                            data-model-name="question"
+                    >
+                    </script>
+                    <script type="text/javascript"
+                            id="django-admin-prepopulated-fields-constants"
+                            src="/static/admin/js/prepopulate_init.js"
+                            data-prepopulated-fields="[]">
+                    </script>
+                </div>
+            </form>
+        </div>
+        <br class="clear">
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>

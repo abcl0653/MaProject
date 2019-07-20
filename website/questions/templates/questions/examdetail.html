@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Questions</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'questions/css/style.css' %}" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="{% static 'questions/js/js.js'%}"></script>
+
+</head>
+<body>
+
+<header class="header">
+    <p class="title">Ma-Project - Exam: {{exam.exam_name}}</p>
+</header>
+{% if messages %}
+<div class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</div>
+{% endif %}
+<div class="row" >
+    <div class="column-exam" style='overflow:scroll; height:700px;'>
+        <p><b>Title:</b> {{exam.exam_title}}</p>
+        <p><b>Subtitle:</b>{{exam.exam_subtitle}}</p>
+
+        <div class=""><b>Question List</b></div>
+        <div class="table-container">
+        <table class="table">
+            <thead >
+            <tr>
+                <th class="orderable">
+                    <a href="?sort=seq">Sequence</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=id">QuestionID</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=question_text">Desciption</a>
+                </th>
+
+                <th class="orderable">
+                    <a>Action</a>
+                </th>
+
+            </tr>
+            </thead>
+            <tbody>
+
+ {% for item in exam_items %}
+          <tr class="odd">
+              <td>
+
+                  {{item.seq}}
+              </td>
+              <td>
+                  {{item.question.id}}
+                  <span class="workspace">
+                      <p class = "large-text">{{item.question.workspace}}</p>
+                  </span>
+              </td>
+              <td>{{item.question.question_text}}
+                  <span class="large">
+                      <img src="{% static 'questions/workspaces/'|add:item.question.jpg_url %}" class="large-image" alt="My image"
+                        onerror="this.style.display='none'"/>
+                  </span>
+              </td>
+              <td><a href="{% url 'questions:delete_from_exam' exam.id item.id %}">Del</a>
+              <a href="{% url 'questions:up' exam.id item.id %}">Up</a>
+                  <a href="{% url 'questions:down' exam.id item.id %}">Down</a>
+              </td>
+
+
+          </tr>
+
+         {% endfor %}
+
+            </tbody>
+        </table>
+        </div>
+
+        <div text-align="left" class="submit-row-left">
+            <a class ="activeButton" href="{% url 'questions:preview' exam.id %}" target="_blank"
+            style="background-color: #dff0d8;">Preview</a>
+
+                <a class="activeButton" name="add_question" href="{% url 'questions:addexam' %}" target="_blank">NEW</a>
+
+                        <!--<input type="submit" value="Save and add another" name="_addanother">-->
+                        <!--<input type="submit" value="Save and continue editing" name="_continue">-->
+            </div>
+        <div class="input-group" display="table" box-sizing="border-box">
+            <input size = "50px" value="sublime {{exam.abs_path}}" display="table-cell"  id="sublimeCommand" readonly>
+
+<!-- Trigger -->
+            <span class="input-group-button">
+            <button class="btn1" type="button" data-clipboard-demo="" onclick="copyCode()">
+            <img class="clippy" src="{% static 'questions/image/clippy.svg' %}" width="13" alt="Copy to clipboard">
+            </button>
+            </span>
+
+        </div>
+    </div>
+
+    <div class="column-question">
+        <div class="table-container" style='overflow:scroll; height:700px;'>
+        <table class="table">
+            <thead >
+            <tr>
+                <th class="orderable"><a href="?sort=id">ID</a></th>
+                 <th class="orderable">
+                    <a href="?sort=question_text">Question text</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=category">Category</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=grade">Grade</a>
+                </th>
+                <th class="orderable">
+                    <a href="?sort=rate">Rate</a>
+                </th>
+                <th class="desc orderable">
+                    <a href="?sort=pub_date">Date published</a>
+                </th>
+        </thead>
+            <tbody>
+        {% for question in questions %}
+          <tr class='clickable-row' data-href=questions/{{question.id}}>
+              <td>
+                   <label>
+
+                    {{question.id}}
+                       <a class = 'default' href="{% url 'questions:add_to_exam' exam.id question.id %}">Add</a>
+                  </label>
+                  <span class="workspace">
+                      <p class = "large-text">{{question.workspace}}</p>
+                  </span>
+              </td>
+              <td>{{question.question_text}}
+                  <span class="large">
+                      <img src="{% static 'questions/workspaces/'|add:question.jpg_url %}?={{ question.current_time }}" class="large-image" alt="My image"
+                        onerror="this.style.display='none'"/>
+                  </span>
+              </td>
+              <td>{{question.category}}</td>
+              <td>{{question.grade}}</td>
+              <td>{{question.rate}}</td>
+              <td>{{question.pub_date}}</td>
+          </tr>
+         {% endfor %}
+            </tbody>
+        </table>
+
+            <div text-align="left" class="submit-row-left">
+                <a class="activeButton" name="add_question" href="{% url 'questions:add' %}" target="_blank">NEW</a>
+                        <!--<input type="submit" value="Save and add another" name="_addanother">-->
+                        <!--<input type="submit" value="Save and continue editing" name="_continue">-->
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

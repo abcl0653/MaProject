@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+{% load static %}
+<head>
+    <title>Question Detail</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="{% static 'questions/css/style.css' %}" />
+
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css">
+    <script type="text/javascript" src="/admin/jsi18n/"></script>
+    <script type="text/javascript" src="/static/admin/js/vendor/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+    <script type="text/javascript" src="/static/admin/js/core.js"></script>
+    <script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+    <script type="text/javascript" src="/static/admin/js/actions.js"></script>
+    <script type="text/javascript" src="/static/admin/js/urlify.js"></script>
+    <script type="text/javascript" src="/static/admin/js/prepopulate.js"></script>
+    <script type="text/javascript" src="/static/admin/js/vendor/xregexp/xregexp.js"></script>
+    <script type="text/javascript" src="/static/admin/js/calendar.js"></script>
+    <script type="text/javascript" src="/static/admin/js/admin/DateTimeShortcuts.js"></script>
+     <script src="{% static 'questions/js/js.js'%}"></script>
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">
+    <meta name="robots" content="NONE,NOARCHIVE">
+</head>
+{% if messages %}
+<div class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</div>
+{% endif %}
+<body class=" app-questions model-question change-form"
+      data-admin-utc-offset="0">
+<!-- Container -->
+<div id="container">
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+            <h1 id="site-name"><a href="/admin/">Question Detail</a></h1>
+        </div>
+        <div id="user-tools">
+            Welcome,
+            <strong>cailin</strong>.
+            <a href="/">View site</a> /
+            <a href="/admin/password_change/">Change password</a> /
+            <a href="/admin/logout/">Log out</a>
+        </div>
+    </div>
+    <!-- END Header -->
+    <div class="breadcrumbs">
+        <a href="/admin/">Admin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/questions/">Questions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/questions/exams/">Exams</a>
+
+    </div>
+    <!-- Content -->
+    <div id="content" class="colM">
+        <h1>Change Question</h1>
+        <div class="row" >
+            <div id="content-main" style="width: 50%;float:left;">
+            <form action="" method="post" id="question_form" novalidate>
+                <input type="hidden" name="csrfmiddlewaretoken" value="GlLOnwFPP9yh6N7qXcP448F9iBKkDvPSjkSAO0idgbCIOGXPE3hshrZRp3SNETso">
+                <div>
+                    <fieldset class="module aligned ">
+                        <div class="form-row field-workspace">
+                            <div>
+                                <label class="required" for="id_question_id">Question ID:</label>
+                                <p type="text" name="question_id"  maxlength="64" required
+                                   id="id_question_id">
+                                    {{question.id}}</p>
+                            </div>
+                        </div>
+                        <div class="form-row field-question_text">
+                            <div>
+                                <label class="required" for="id_question_text">Question text:</label>
+                                <input type="text" value="{{question.question_text}}" name="question_text" class="vTextField" maxlength="200" required
+                                       id="id_question_text">
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-row field-workspace">
+                            <div>
+                                <label class="required" for="id_workspace">Workspace:</label>
+                                <p type="text" name="workspace"  maxlength="64" required
+                                   id="id_workspace">
+                                    {{question.workspace}}</p>
+                            </div>
+                        </div>
+                        <div class="form-row field-category">
+                            <div>
+                                <label class="required" for="id_category">Category:</label>
+                                <!--<input type="text" value="{{question.category}}" name="category" class="vTextField" maxlength="10" required-->
+                                       <!--id="id_category">-->
+                                <select value="{{question.category}}" name="category" id="id_category">
+                                  <option value="几何" {% if question.category == "几何" %} selected = "selected"{% endif %}>
+                                  几何</option>
+                                  <option value="代数"
+                                          {% if question.category == "代数" %} selected = "selected"{% endif %}>
+                                  代数</option>
+
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="form-row field-grade">
+                            <div>
+                                <label class="required" for="id_grade">Grade:</label>
+                                <!--<input type="number" value = "{{question.grade}}" name="grade" class="vIntegerField" required id="id_grade">-->
+                                <select value="{{question.grade}}" name="grade" id="id_grade">
+                                  <option value="六年级" {% if question.category == "六年级" %} selected = "selected"{% endif %}>
+                                  六年级</option>
+                                  <option value="初一"
+                                          {% if question.grade == "初一" %} selected = "selected"{% endif %}>
+                                  初一</option>
+                                    <option value="初二"
+                                          {% if question.grade == "初二" %} selected = "selected"{% endif %}>
+                                  初二</option>
+                                    <option value="初三"
+                                          {% if question.grade == "初三" %} selected = "selected"{% endif %}>
+                                  初三</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row field-rate">
+                            <div>
+                                <label class="required" for="id_rate">Rate:</label>
+                                <input type="number" value="{{question.rate}}" name="rate" class="vIntegerField" required id="id_rate">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="submit-row">
+                        <input type="submit" value="Save" class="default" name="_save">
+                        <!--<input type="submit" value="Save and add another" name="_addanother">-->
+                        <!--<input type="submit" value="Save and continue editing" name="_continue">-->
+                    </div>
+                    <script type="text/javascript"
+                            id="django-admin-form-add-constants"
+                            src="/static/admin/js/change_form.js"
+
+                            data-model-name="question"
+                    >
+                    </script>
+                    <script type="text/javascript"
+                            id="django-admin-prepopulated-fields-constants"
+                            src="/static/admin/js/prepopulate_init.js"
+                            data-prepopulated-fields="[]">
+                    </script>
+                </div>
+            </form>
+        </div>
+            <div id="question_image" style="width:50%; float:right;">
+                <div>
+                <span >
+                      <img src="{% static 'questions/workspaces/'|add:question.jpg_url %}?={{ question.current_time }}" width="90%" alt="My image"
+                        onerror="this.style.display='none'"/>
+                  </span>
+                </div>
+                        <div class="input-group" display="table" box-sizing="border-box">
+            <input size = "50px" value="sublime {{question.abs_path}}" display="table-cell"  id="sublimeCommand" readonly>
+
+<!-- Trigger -->
+            <span class="input-group-button">
+            <button class="btn1" type="button" data-clipboard-demo="" onclick="copyCode()">
+            <img class="clippy" src="{% static 'questions/image/clippy.svg' %}" width="13" alt="Copy to clipboard">
+            </button>
+                <a class="activeButton" name="regen_jpg" href="{% url 'questions:regen_jpg' question.id%}" >RE-GEN</a>
+
+            </span>
+
+        </div>
+            </div>
+        </div>
+        <br class="clear">
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
